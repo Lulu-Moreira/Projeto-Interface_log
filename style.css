@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    border: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:"Ubuntu", Sans-serif;
+}
+
+body{
+    background-color: #101517;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.container{
+    background-color: #1d2327;
+    max-width: 350px;
+    min-height: 48vh;
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+main h2{
+    margin-bottom: 2rem;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+form{
+
+display: flex;
+flex-direction: column;
+
+}
+
+.input-fild input{
+    outline: none;
+    font-size: 18px;
+    color: white;
+    background-color: #101517;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 11px;
+}
+
+
+form input[type= "submit"] {
+
+    margin-top: 2rem;
+    padding: 0.4rem;
+    cursor: pointer;
+    background-color: rgb(114, 46, 131);
+    color: rgba(226, 224, 224, 0.781);
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footer{
+
+    margin-top: 1rem;
+    
+}
+
+.footer span{
+
+    color: rgba(226, 224, 224, 0.781);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-midia{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size: 30px;
+    margin-top: 15px;
+}
+
+.social-google{
+
+    margin: 15px;
+    
+}
+
+.social-facebook{
+
+    margin: 15px;
+    
+}
+
+.img-facebook{
+
+    max-width: 2rem;
+    margin-left: 15px;
+}
+
+.img-google{
+
+    max-width: 2rem;
+    margin-right: 15px;
+}
